@@ -43,17 +43,4 @@ form.addEventListener('submit', e => {
 })
 
 // -------------light-theme------------
-var logo = document.getElementById("logo");
-var icon = document.getElementById("icon");
-
-icon.onclick = function(){
-	document.body.classList.toggle("light-theme");
-	if(document.body.classList.contains("light-theme")){
-		logo.src = "logo1.png"
-		icon.src = "moon.png"
-	}else{
-		logo.src = "logo.png"
-		icon.src= "sun.png"
-	}
-}
 
