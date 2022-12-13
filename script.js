@@ -43,30 +43,17 @@ form.addEventListener('submit', e => {
 })
 
 // -------------light-theme------------
-// var icon = document.getElementById("icon");
-// var logo = document.getElementById("log")
-
-// icon.onclick = function(){
-// 	document.body.classList.toggle("light-theme");
-// 	if(document.body.classList.contains("light-theme")){
-// 		icon.src = "images/moon.png";
-// 		logo.src = "images/logo1.png";
-// 	}else{
-// 		icon.src = "images/sun.png";
-// 	}
-// }
-
 var logo = document.getElementById("logo");
 var icon = document.getElementById("icon");
 
 icon.onclick = function(){
 	document.body.classList.toggle("light-theme");
 	if(document.body.classList.contains("light-theme")){
-		logo.src = "images/logo1.png"
-		icon.src = "images/moon.png"
+		logo.src = "logo1.png"
+		icon.src = "moon.png"
 	}else{
-		logo.src = "images/logo.png"
-		icon.src= "images/sun.png"
+		logo.src = "logo.png"
+		icon.src= "sun.png"
 	}
 }
 
